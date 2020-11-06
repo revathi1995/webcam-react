@@ -51,7 +51,7 @@ class App extends React.Component {
               <h2>Screenshots</h2>
               <div className='screenshots'>
                 <div className='controls'>
-                  <input type='file' onChange={this.handleChange} />
+                  //<input type='file' onChange={this.handleChange} />
                   <button onClick={this.handleClick}>capture</button>
                   //<button onClick={this.saveFile}>Save File</button>
                 </div>
